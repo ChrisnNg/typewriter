@@ -1,6 +1,7 @@
-let time = 0;
+
 
 const sentence = function(sentence) {
+  let time = 0;
   for (const char of sentence) {
     setTimeout(() => {
       process.stdout.write(char);
